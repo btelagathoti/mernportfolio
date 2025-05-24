@@ -1,6 +1,0 @@
-[submodule "client"]
-	path = client
-	url = https://github.com/btelagathoti/mernportfolio.git/client
-[submodule "server"]
-    path = server
-    url = https://github.com/btelagathoti/mernportfolio.git/server 
