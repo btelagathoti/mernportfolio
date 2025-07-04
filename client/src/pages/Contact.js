@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: <FaEnvelope className="h-6 w-6" />,
       label: 'Email',
-      value: 'telagathotibabuji337@gmail.com',
-      link: 'mailto:telagathotibabuji337@gmail.com'
+      value: 'babuji789.t@gmail.com',
+      link: 'mailto:babuji789.t@gmail.com'
     },
     {
       icon: <FaGithub className="h-6 w-6" />,

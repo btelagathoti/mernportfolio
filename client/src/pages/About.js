@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import my_photo from '../docs/Babuji_picture_contactPage.jpeg'
 import {
   FaReact,
   FaNodeJs,
@@ -45,7 +46,7 @@ const About = () => {
               transition={{ delay: 0.2, duration: 0.5 }}
             >
               <img
-                src="/your-photo.jpg"
+                src={my_photo}
                 alt="Babuji Telagathoti"
                 className="rounded-lg shadow-lg w-full max-w-md mx-auto"
               />
@@ -61,14 +62,7 @@ const About = () => {
                 Full Stack Developer
               </h2>
               <p className="text-gray-600 dark:text-gray-400">
-                I'm a Full Stack Developer with 4+ years of experience in building responsive, 
-                dynamic web applications. Currently working at UF Health in Jacksonville, FL, 
-                where I specialize in MERN stack development and Java/Spring Boot integrations.
-              </p>
-              <p className="text-gray-600 dark:text-gray-400">
-                My expertise includes modernizing legacy systems, implementing RESTful APIs, 
-                and creating responsive UIs using React, Redux, and Tailwind CSS. I'm passionate 
-                about delivering scalable solutions and following best practices in software development.
+                AI-focused Full Stack Developer with 4+ years of experience building scalable, real-time web applications using React.js, Node.js, and AWS cloud-native services. Demonstrated expertise in AI-integrated healthcare solutions and e-commerce platforms. Proficient in designing high-performance front-end systems, serverless backends using AWS Lambda, S3, EC2, and delivering production-grade ML-enhanced solutions.CI/CD pipelines, infrastructure-as-code, and Agile delivery environments. Currently pursuing AWS Certified Solutions Architect.
               </p>
               <p className="text-gray-600 dark:text-gray-400">
                 I hold a Master's degree in Information Technology from St. Francis College and 

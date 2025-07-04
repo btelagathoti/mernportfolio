@@ -10,15 +10,12 @@ const Resume = () => {
       location: "Jacksonville, FL",
       period: "Aug 2023 – Present",
       description: [
-        "Engineered and maintained MERN stack applications, delivering reusable React.js components integrated with Node.js/Express APIs and MongoDB.",
-        "Modernized legacy Classic ASP platforms by redesigning the frontend in React and backend in Node.js, improving system reliability by 30%.",
+        "Developed AI-powered patient billing and diagnostics dashboard using React.js and Python, streamlining medical checkout flows by 45% ",
+        "Integrated GenAI-driven recommendation engine for appointment and insurance suggestions ",
         "Managed MongoDB schemas using Mongoose and implemented RESTful APIs to support secure CRUD operations.",
-        "Utilized JWT for token-based authentication and tested all backend endpoints using Postman for robust security and data integrity.",
-        "Contributed to Java/Spring Boot service layer integrations for internal microservices, collaborating with backend teams on scalable service architecture.",
-        "Assisted in refactoring legacy Java/J2EE modules to Spring Boot-based microservices to support interoperability between old and modern platforms.",
-        "Designed responsive, cross-device UIs with React Hooks, Redux, Bootstrap, and Tailwind CSS, enhancing user experience for healthcare staff.",
-        "Collaborated in Agile teams, participating in daily stand-ups, sprint planning, and code reviews to maintain delivery velocity.",
-        "Contributed to cloud infrastructure tasks using AWS, supporting scalable deployments and database resilience."
+        "Migrated modules to Azure Functions and Cosmos DB, enhancing fault tolerance and uptime to 99.95%",
+        "Improved system latency by 60% via REST API optimization and frontend performance tuning ",
+        "Designed secure APIs and deployed serverless applications using AWS Lambda, API Gateway, and S3"
       ],
       environment: "React.js, Bootstrap, Tailwind CSS, HTML5, CSS3, JavaScript (ES6+), Node.js, Express.js, Java/J2EE, MongoDB, SQL, JWT, Postman, AWS, CI/CD tools"
     },
@@ -28,17 +25,9 @@ const Resume = () => {
       location: "India",
       period: "Aug 2020 – Dec 2022",
       description: [
-        "Worked on an internal enterprise project focused entirely on front-end development using React.js.",
-        "Developed new components and enhanced existing ones using HTML5, CSS3, JavaScript (ES6+), React.js, Redux, Bootstrap, Tailwind CSS, jQuery, and Sass.",
-        "Created custom Sass Mixins for consistent styling across multiple components.",
-        "Defined custom variables, utilized nesting, and followed modular CSS practices for maintainable code.",
-        "Collaborated closely with the Adobe Experience Manager (AEM) team, enabling seamless integration of React components for drag-and-drop functionality within AEM pages.",
-        "Assisted the AEM team in identifying and resolving component rendering issues, ensuring smooth handoff and cross-functional efficiency.",
-        "Followed Agile methodology and participated in sprint-based development cycles, collaborating with designers and QA engineers.",
-        "Refined user interfaces to be fully responsive and accessible across browsers and devices, ensuring consistent user experiences.",
-        "Contributed to the creation of reusable UI libraries to accelerate feature development across modules.",
-        "Integrated REST APIs provided by backend teams using Axios and tested data flows with mock responses and tools like Postman.",
-        "Maintained clean, maintainable codebases through code reviews, documentation, and adherence to modern React best practices."
+        "Led front-end architecture and state management in a MERN-based enterprise portal for product lifecycle automation.",
+        "Created 20+ reusable components using React, Redux, Tailwind CSS to support content delivery.",
+        "Integrated REST and GraphQL APIs, reducing load times by 30% in internal knowledge systems - Built unit test coverage to 85% and contributed to CI/CD pipelines with GitHub Actions"
       ],
       environment: "React.js, Redux, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Tailwind CSS, Sass / SCSS, jQuery, Adobe Experience Manager (AEM), Axios, Postman, Mock API tools"
     },
@@ -48,13 +37,11 @@ const Resume = () => {
       location: "Brooklyn, NY, USA",
       period: "Jan 2023-Dec 2024",
       description: [
-        "Built a dynamic, responsive Film Club web app using React.js for an interactive front-end experience.",
-        "Built RESTful APIs using Node JS to handle backend logic, user requests, and data management.",
-        "Integrated MongoDB for storing film data, user profiles, and club discussions.",
-        "Enabled features such as browsing movies, joining clubs, and posting reviews with secure data handling.",
-        "Implemented full CRUD operations for film listings and user content.",
-        "Designed a clean UI using reusable React components and Bootstrap for responsive layout.",
-        "Ensured smooth frontend-backend communication with Axios, and tested API endpoints using Postman."
+        "Developed a subscription-based film platform supporting 500+ users with actor/director-based discovery",
+        "Created 15+ performant REST APIs with <200ms response time using Node and Express",
+        "Enabled fast actor/director search with MongoDB indexing; reduced lookup latency by 40%",
+        "Secured app using JWT authentication and achieved 99.9% uptime in test deployment"
+
       ]
     }
   ];
@@ -75,6 +62,16 @@ const Resume = () => {
   ];
 
   const certifications = [
+     {
+      title: "AWS Certified Developer ",
+      issuer: "AWS",
+      period: "2024"
+    },
+    {
+      title: "AWS Certified Solutions Architect – Associate ",
+      issuer: "AWS",
+      period: "InProgress"
+    },
     {
       title: "Front End Development Libraries",
       issuer: "freeCodeCamp",
