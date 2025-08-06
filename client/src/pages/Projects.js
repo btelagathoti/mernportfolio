@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-// import axios from 'axios';
+
 import hotelBooking from '../docs/hotelBooking.jpg';
 import filmClub from '../docs/filmClub.jpg';
 import portfolio from '../docs/portfolio.png';

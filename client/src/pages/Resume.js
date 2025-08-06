@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { FaDownload, FaBriefcase, FaGraduationCap, FaCertificate, FaUser, FaCode } from 'react-icons/fa';
 

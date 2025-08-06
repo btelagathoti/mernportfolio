@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import my_photo from '../docs/Babuji_picture_contactPage.jpeg'
 import {
@@ -34,7 +34,7 @@ import {
   SiJson,
   SiReactquery,
   SiAdobe,
-  SiAmazonaws,
+
   SiAwslambda,
   SiAmazonec2,
   SiAmazoniam,

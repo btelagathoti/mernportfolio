@@ -1,4 +1,4 @@
-import React from 'react';
+
 import babujiPicture from "../docs/Babuji_homePage.jpeg"
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
