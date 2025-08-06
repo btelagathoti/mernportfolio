@@ -12,7 +12,7 @@ const Projects = () => {
       description: "Developed booking system using React.js and Java backend with MongoDB; implemented GET/fetch methods and Bootstrap UI.",
       image: hotelBooking,
       technologies: ["React.js", "Java", "MongoDB", "Bootstrap"],
-      github: "https://github.com/yourusername/hotel-booking",
+      github: "https://github.com/btelagathoti",
       live: "https://hotel-booking-platform-2025.netlify.app/"
     },
     {
@@ -20,7 +20,7 @@ const Projects = () => {
       description: "Built a dynamic MERN stack application with React frontend, Node.js/Express backend, and MongoDB; implemented full CRUD operations, Axios integration, and API testing using Postman.",
       image: filmClub,
       technologies: ["MERN Stack", "React", "Node.js", "Express", "MongoDB", "Axios", "Postman"],
-      github: "https://github.com/yourusername/film-club",
+      github: "https://github.com/btelagathoti",
       live: "https://film-club-app-2025.netlify.app/"
     },
     {
@@ -28,8 +28,8 @@ const Projects = () => {
       description: "Designed and deployed a personal portfolio showcasing frontend projects using React, hosted via Netlify.",
       image: portfolio,
       technologies: ["React", "Tailwind CSS", "Netlify"],
-      github: "https://github.com/yourusername/portfolio",
-      live: "https://your-portfolio.netlify.app"
+      github: "https://github.com/btelagathoti",
+      live: "https://babujit.netlify.app/"
     }
   ]);
 

@@ -14,7 +14,7 @@ const Contact = () => {
       icon: <FaGithub className="h-6 w-6" />,
       label: 'GitHub',
       value: 'github.com/btelagathoti',
-      link: 'https://github.com/btelagathoti'
+      link: 'https://www.linkedin.com/in/babuji-telagathoti-2142b6357/'
     },
     {
       icon: <FaLinkedin className="h-6 w-6" />,

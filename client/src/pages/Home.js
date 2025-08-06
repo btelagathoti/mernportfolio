@@ -30,7 +30,7 @@ const Home = () => {
               transition={{ delay: 0.4, duration: 0.5 }}
               className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-10"
             >
-              Full Stack Developer
+              Software Engineer
             </motion.h2>
             
             <motion.p
@@ -39,9 +39,7 @@ const Home = () => {
               transition={{ delay: 0.6, duration: 0.5 }}
               className="text-lg text-gray-600 dark:text-gray-400 mb-10 max-w-2xl"
             >
-              Proficient MERN Stack Developer with 4+ years of hands-on experience in building responsive, 
-              dynamic web applications. Skilled in React.js, Node.js, Express.js, and MongoDB, with expertise 
-              in translating complex business requirements into scalable technical solutions.
+              Full Stack Software Engineer with overall 5 years of experience in developing scalable web applications and microservices across cloud-native and on-prem environments. Proficient in building responsive front-end interfaces using Angular, HTML5, CSS3, and JavaScript, and designing robust back-end systems with Java, Spring Boot, Node.js, and RESTful APIs. Skilled in cloud deployment using AWS (EC2, Lambda, Elastic Beanstalk, IAM) and experienced with Adobe Experience Manager (AEM) for enterprise content management. Strong foundation in MongoDB and MySQL, with expertise in Agile, CI/CD pipelines, TDD, and version control. Passionate about writing clean, maintainable code and contributing to high-performance development teams.
             </motion.p>
             
             <motion.div

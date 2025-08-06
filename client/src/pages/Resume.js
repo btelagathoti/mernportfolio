@@ -1,76 +1,81 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaDownload, FaBriefcase, FaGraduationCap, FaCertificate } from 'react-icons/fa';
+import { FaDownload, FaBriefcase, FaGraduationCap, FaCertificate, FaUser, FaCode } from 'react-icons/fa';
 
 const Resume = () => {
+  const summary = {
+    name: "BABUJI TELAGATHOTI",
+    contact: "Florida, JACKSONVILLE, USA, 32256 • babuji789.t@gmail.com • +15084100857",
+    description: "Full Stack Software Engineer with overall 5 years of experience in developing scalable web applications and microservices across cloud-native and on-prem environments. Proficient in building responsive front-end interfaces using Angular, HTML5, CSS3, and JavaScript, and designing robust back-end systems with Java, Spring Boot, Node.js, and RESTful APIs. Skilled in cloud deployment using AWS (EC2, Lambda, Elastic Beanstalk, IAM) and experienced with Adobe Experience Manager (AEM) for enterprise content management. Strong foundation in MongoDB and MySQL, with expertise in Agile, CI/CD pipelines, TDD, and version control. Passionate about writing clean, maintainable code and contributing to high-performance development teams."
+  };
+
+  const skills = {
+    "Languages & Frameworks": ["Java", "Spring Boot", "Spring MVC", "Hibernate", "Node.js", "Express.js", "JavaScript", "TypeScript", "HTML5", "CSS3", "Pug", "jQuery"],
+    "Front-End Technologies": ["Angular", "React", "Redux", "Bootstrap"],
+    "Cloud Platforms & DevOps Tools": ["Amazon Web Services (AWS) – EC2", "Lambda", "Elastic Beanstalk", "IAM", "Adobe Experience Manager (AEM)", "Git", "GitHub", "GitLab", "CI/CD Pipelines"],
+    "Databases": ["MongoDB", "MySQL", "PostgreSQL (basic)"],
+    "Tools & Methodologies": ["Spring Tool Suite (STS)", "Visual Studio Code", "Jira", "Agile Scrum", "Test-Driven Development (TDD)"],
+    "APIs & Integration": ["RESTful APIs", "JSON", "React Query", "jQuery AJAX"]
+  };
+
   const experiences = [
     {
-      title: "Full Stack Developer",
-      company: "UF Health",
+      title: "Software Engineer",
+      company: "Radix",
       location: "Jacksonville, FL",
-      period: "Aug 2023 – Present",
+      period: "Apr 2023 - Present",
       description: [
-        "Developed AI-powered patient billing and diagnostics dashboard using React.js and Python, streamlining medical checkout flows by 45% ",
-        "Integrated GenAI-driven recommendation engine for appointment and insurance suggestions ",
-        "Managed MongoDB schemas using Mongoose and implemented RESTful APIs to support secure CRUD operations.",
-        "Migrated modules to Azure Functions and Cosmos DB, enhancing fault tolerance and uptime to 99.95%",
-        "Improved system latency by 60% via REST API optimization and frontend performance tuning ",
-        "Designed secure APIs and deployed serverless applications using AWS Lambda, API Gateway, and S3"
+        "Participated in all phases of the Software Development Lifecycle (SDLC), including analysis, design, development, testing, and deployment of enterprise-level applications.",
+        "Built and maintained responsive Single Page Applications (SPAs) using Angular, enabling seamless client-side rendering and efficient data handling.",
+        "Developed and deployed scalable Java-based applications on AWS using services like EC2, Lambda, and Elastic Beanstalk.",
+        "Secured cloud-based Java applications by configuring AWS IAM roles and policies for fine-grained access control and resource management.",
+        "Designed dynamic and mobile-friendly front-end interfaces using Angular, HTML5, CSS3, Bootstrap, and JavaScript.",
+        "Implemented RESTful APIs and microservices using Spring Boot and Spring Data JPA to support scalable, distributed systems.",
+        "Integrated front-end Angular components with RESTful services to enable real-time content rendering and reduce page reloads.",
+        "Used Hibernate ORM for seamless object-relational mapping, database communication, and query optimization.",
+        "Improved code maintainability through standardized exception handling, effective use of Java Collection APIs, and clear documentation.",
+        "Conducted thorough code reviews, enforced coding standards, and provided mentorship to ensure high-quality software delivery.",
+        "Practiced Agile Scrum methodologies including sprint planning, daily stand-ups, retrospectives, and Test-Driven Development (TDD)."
       ],
-      environment: "React.js, Bootstrap, Tailwind CSS, HTML5, CSS3, JavaScript (ES6+), Node.js, Express.js, Java/J2EE, MongoDB, SQL, JWT, Postman, AWS, CI/CD tools"
+      environment: "Angular, Java, Spring Boot, Spring MVC, Hibernate, AWS (EC2, Lambda, Elastic Beanstalk, IAM), HTML5, CSS3, Bootstrap, JavaScript, RESTful APIs, Agile Scrum, TDD"
     },
     {
-      title: "Front-End React Developer",
+      title: "Software Engineer",
       company: "Cognizant Technology Solutions",
       location: "India",
-      period: "Aug 2020 – Dec 2022",
+      period: "Aug 2020 - Nov 2022",
       description: [
-        "Led front-end architecture and state management in a MERN-based enterprise portal for product lifecycle automation.",
-        "Created 20+ reusable components using React, Redux, Tailwind CSS to support content delivery.",
-        "Integrated REST and GraphQL APIs, reducing load times by 30% in internal knowledge systems - Built unit test coverage to 85% and contributed to CI/CD pipelines with GitHub Actions"
+        "The design and implementation of reusable components within Adobe Experience Manager (AEM), enabling over 100 successful integrations with existing systems while ensuring seamless updates and minimal downtime.",
+        "Utilized Pug templates in conjunction with modern JavaScript frameworks to streamline development workflows, significantly shortening UI iteration cycles and accelerating delivery timelines.",
+        "Transformed more than 30 static design prototypes into fully responsive, W3C-compliant HTML5 web pages using advanced CSS3 techniques to support optimal rendering across a wide range of devices.",
+        "Developed scalable and modular web components using Node.js and Express, integrating with a MongoDB backend to improve query handling efficiency and enhance overall application performance.",
+        "Championed best practices for Git version control in collaborative coding environments, simplifying merge processes and reducing redundant development effort across the engineering team.",
+        "Enhanced application hydration and state synchronization across platforms by integrating Redux and React Query, improving the user experience for real-time data interactions.",
+        "Integrated and processed JSON responses from RESTful APIs, optimizing dynamic content updates through jQuery to ensure consistent user interfaces across multiple device types."
       ],
-      environment: "React.js, Redux, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Tailwind CSS, Sass / SCSS, jQuery, Adobe Experience Manager (AEM), Axios, Postman, Mock API tools"
-    },
-    {
-      title: "Academic Experience (Capstone)",
-      company: "St Francis College",
-      location: "Brooklyn, NY, USA",
-      period: "Jan 2023-Dec 2024",
-      description: [
-        "Developed a subscription-based film platform supporting 500+ users with actor/director-based discovery",
-        "Created 15+ performant REST APIs with <200ms response time using Node and Express",
-        "Enabled fast actor/director search with MongoDB indexing; reduced lookup latency by 40%",
-        "Secured app using JWT authentication and achieved 99.9% uptime in test deployment"
-
-      ]
+      environment: "Adobe Experience Manager (AEM), Pug, JavaScript, HTML5, CSS3, Node.js, Express.js, MongoDB, Git, Redux, React Query, RESTful APIs, JSON, jQuery"
     }
   ];
 
   const education = [
     {
-      degree: "Master of Science in Information Technology",
-      school: "St. Francis College",
-      location: "Brooklyn, NY",
-      period: "Completed: Dec 2024"
-    },
-    {
-      degree: "Bachelor of Engineering in Electrical and Electronics",
-      school: "KL University",
-      location: "Vijayawada, India",
-      period: "Completed: May 2021"
+      degree: "M.S IN INFORMATION TECHNOLOGY",
+      school: "St Francis College",
+      location: "Brooklyn, New York, USA",
+      period: "Jan 2023 - Dec 2024"
     }
   ];
 
   const certifications = [
-     {
-      title: "AWS Certified Developer ",
+    {
+      title: "AWS Certified Developer",
       issuer: "AWS",
       period: "2024"
     },
     {
-      title: "AWS Certified Solutions Architect – Associate ",
+      title: "AWS Certified Solutions Architect – Associate",
       issuer: "AWS",
-      period: "InProgress"
+      period: "In Progress"
     },
     {
       title: "Front End Development Libraries",
@@ -95,14 +100,76 @@ const Resume = () => {
         >
           <div className="flex justify-between items-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white">Resume</h1>
-            <a
-              href="/resume.pdf"
-              download
-              className="btn btn-primary flex items-center gap-2"
-            >
-              <FaDownload /> Download CV
-            </a>
+            <div className="flex gap-3">
+              <button
+                onClick={() => window.print()}
+                className="btn btn-primary flex items-center gap-2 hover:bg-primary-700 transition-colors"
+              >
+                <FaDownload /> Print/Save as PDF
+              </button>
+              <a
+                href="/resume.docx"
+                download="Babuji_Telagathoti_Resume.docx"
+                className="btn btn-secondary flex items-center gap-2 hover:bg-gray-700 transition-colors"
+              >
+                <FaDownload /> Download Word Doc
+              </a>
+            </div>
           </div>
+
+          {/* Summary Section */}
+          <section className="mb-16">
+            <div className="flex items-center gap-3 mb-8">
+              <FaUser className="text-2xl text-primary-600 dark:text-primary-400" />
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Summary</h2>
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg"
+            >
+              <div className="mb-4">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{summary.name}</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">{summary.contact}</p>
+              </div>
+              <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{summary.description}</p>
+            </motion.div>
+          </section>
+
+          {/* Skills Section */}
+          <section className="mb-16">
+            <div className="flex items-center gap-3 mb-8">
+              <FaCode className="text-2xl text-primary-600 dark:text-primary-400" />
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Skills</h2>
+            </div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-lg"
+            >
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {Object.entries(skills).map(([category, skillList], index) => (
+                  <div key={index} className="space-y-3">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">
+                      {category}
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      {skillList.map((skill, skillIndex) => (
+                        <span
+                          key={skillIndex}
+                          className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-200 rounded-full text-sm font-medium"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </section>
 
           {/* Experience Section */}
           <section className="mb-16">
