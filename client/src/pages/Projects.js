@@ -8,19 +8,19 @@ import portfolio from '../docs/portfolio.png';
 const Projects = () => {
   const [projects] = useState([
     {
-      title: "Hotel Booking Platform",
+      title: "Hotel-Room Booking Platform",
       description: "Developed booking system using React.js and Java backend with MongoDB; implemented GET/fetch methods and Bootstrap UI.",
       image: hotelBooking,
       technologies: ["React.js", "Java", "MongoDB", "Bootstrap"],
-      github: "https://github.com/btelagathoti",
-      live: "https://hotel-booking-platform-2025.netlify.app/"
+      github: "https://github.com/btelagathoti/Hotel_Room_Booking",
+      live: "https://hotelroommanagement.netlify.app/"
     },
     {
       title: "Film Club Web App",
       description: "Built a dynamic MERN stack application with React frontend, Node.js/Express backend, and MongoDB; implemented full CRUD operations, Axios integration, and API testing using Postman.",
       image: filmClub,
       technologies: ["MERN Stack", "React", "Node.js", "Express", "MongoDB", "Axios", "Postman"],
-      github: "https://github.com/btelagathoti",
+      github: "https://github.com/btelagathoti/filmClub",
       live: "https://film-club-app-2025.netlify.app/"
     },
     {
@@ -28,7 +28,15 @@ const Projects = () => {
       description: "Designed and deployed a personal portfolio showcasing frontend projects using React, hosted via Netlify.",
       image: portfolio,
       technologies: ["React", "Tailwind CSS", "Netlify"],
-      github: "https://github.com/btelagathoti",
+      github: "https://github.com/btelagathoti/mernportfolio",
+      live: "https://babujit.netlify.app/"
+    },
+    {
+      title: "Restaurant Management System",
+      description: "Developed a restaurant management system using React.js and Java backend with MySQL; implemented GET/fetch methods and Bootstrap UI.",
+      image: portfolio,
+      technologies: ["React", "java","Tailwind CSS", "Netlify"],
+      github: "https://github.com/btelagathoti/HomesKitchen_ReactJSPythonFastAPISQL",
       live: "https://babujit.netlify.app/"
     }
   ]);
