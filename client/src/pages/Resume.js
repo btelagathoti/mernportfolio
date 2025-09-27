@@ -41,7 +41,7 @@ const Resume = () => {
     },
     {
       title: "Software Engineer",
-      company: "Cognizant Technology Solutions",
+      company: "Gnosis Freight",
       location: "India",
       period: "Aug 2020 - Nov 2022",
       description: [

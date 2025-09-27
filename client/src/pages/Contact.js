@@ -14,13 +14,13 @@ const Contact = () => {
       icon: <FaGithub className="h-6 w-6" />,
       label: 'GitHub',
       value: 'github.com/btelagathoti',
-      link: 'https://www.linkedin.com/in/babuji-telagathoti-2142b6357/'
+      link: 'https://github.com/btelagathoti'
     },
     {
       icon: <FaLinkedin className="h-6 w-6" />,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/btelagathoti',
-      link: 'www.linkedin.com/in/babuji-telagathoti-2142b6357'
+      value: 'https://www.linkedin.com/in/babuji-telagathoti-2142b6357/',
+      link: 'https://www.linkedin.com/in/babuji-telagathoti-2142b6357/'
     },
     {
       icon: <FaInstagram className="h-6 w-6" />,
