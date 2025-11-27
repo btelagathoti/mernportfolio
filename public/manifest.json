@@ -1,0 +1,9 @@
+{
+  "short_name": "Babuji Portfolio",
+  "name": "Babuji Telagathoti - Full Stack Software Engineer",
+  "icons": ["B"],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
