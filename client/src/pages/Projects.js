@@ -21,7 +21,7 @@ const Projects = () => {
       image: filmClub,
       technologies: ["MERN Stack", "React", "Node.js", "Express", "MongoDB", "Axios", "Postman"],
       github: "https://github.com/btelagathoti/filmClub",
-      live: "https://film-club-app-2025.netlify.app/"
+      live: "https://filmclubbybabuji.netlify.app/"
     },
     {
       title: "Portfolio Website",
@@ -31,14 +31,6 @@ const Projects = () => {
       github: "https://github.com/btelagathoti/mernportfolio",
       live: "https://babujit.netlify.app/"
     },
-    {
-      title: "Restaurant Management System",
-      description: "Developed a restaurant management system using React.js and Java backend with MySQL; implemented GET/fetch methods and Bootstrap UI.",
-      image: portfolio,
-      technologies: ["React", "java","Tailwind CSS", "Netlify"],
-      github: "https://github.com/btelagathoti/HomesKitchen_ReactJSPythonFastAPISQL",
-      live: "https://babujit.netlify.app/"
-    }
   ]);
 
   const [filter, setFilter] = useState('All');
