@@ -1,12 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-
+import {WebflowOnpageLoading} from '../docs/WebflowOnpageLoading.png'
 import hotelBooking from '../docs/hotelBooking.jpg';
 import filmClub from '../docs/filmClub.jpg';
 import portfolio from '../docs/portfolio.png';
+import {WebflowComponents} from '../docs/WebflowComponents.png'
 
 const Projects = () => {
   const [projects] = useState([
+    {
+      title: "WebFlow OnPage Load Animation",
+      description: "Developed using Webflow plus GSAP.",
+      image: WebflowOnpageLoading,
+      technologies: ["WebFlow","GSAP","HTML","CSS","JS"],
+      live: "https://babujis-site.webflow.io/"
+    },
+    {
+      title: "WebFlow custom components",
+      description: "Developed using Webflow plus GSAP.",
+      image: WebflowComponents,
+      technologies: ["WebFlow","GSAP","HTML","CSS","JS"],
+      live: "https://babujisportfolio.webflow.io/"
+    },
     {
       title: "Hotel-Room Booking Platform",
       description: "Developed booking system using React.js and Java backend with MongoDB; implemented GET/fetch methods and Bootstrap UI.",
