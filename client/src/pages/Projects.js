@@ -1,24 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import {WebflowOnpageLoading} from '../docs/WebflowOnpageLoading.png'
+import OnpageLoading from '../docs/WebflowOnpageLoading.png';
 import hotelBooking from '../docs/hotelBooking.jpg';
 import filmClub from '../docs/filmClub.jpg';
 import portfolio from '../docs/portfolio.png';
-import {WebflowComponents} from '../docs/WebflowComponents.png'
+import WebflowComp from '../docs/WebflowComponents.png';
 
 const Projects = () => {
   const [projects] = useState([
     {
       title: "WebFlow OnPage Load Animation",
       description: "Developed using Webflow plus GSAP.",
-      image: WebflowOnpageLoading,
+      image: OnpageLoading,
       technologies: ["WebFlow","GSAP","HTML","CSS","JS"],
       live: "https://babujis-site.webflow.io/"
     },
     {
       title: "WebFlow custom components",
       description: "Developed using Webflow plus GSAP.",
-      image: WebflowComponents,
+      image: WebflowComp,
       technologies: ["WebFlow","GSAP","HTML","CSS","JS"],
       live: "https://babujisportfolio.webflow.io/"
     },
