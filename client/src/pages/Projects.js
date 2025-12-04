@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Hotel-Room Booking Platform",
       description: "Developed booking system using React.js and Java backend with MongoDB; implemented GET/fetch methods and Bootstrap UI.",
       image: hotelBooking,
-      technologies: ["React.js", "Java", "MongoDB", "Bootstrap"],
+      technologies: ["Angular", "Typescript", "MongoDB", "Bootstrap"],
       github: "https://github.com/btelagathoti/Hotel_Room_Booking",
       live: "https://hotelroommanagement.netlify.app/"
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "Designed and deployed a personal portfolio showcasing frontend projects using React, hosted via Netlify.",
       image: portfolio,
-      technologies: ["React", "Tailwind CSS", "Netlify"],
+      technologies: ["Angular", "Tailwind CSS", "Netlify"],
       github: "https://github.com/btelagathoti/mernportfolio",
       live: "https://babujit.netlify.app/"
     },
